@@ -1,0 +1,307 @@
+/********** 
+Base Styles 
+***********/
+
+body {
+	max-width: 1280px;
+}
+
+
+/* Blog Section Styles */
+.separation p {
+	font-style: italic;
+	font-family: "Merriweather", serif;
+}
+
+.blog_box {
+	height: 100px;
+}
+
+#blog_one {
+	background-color: #43CFBB;
+}
+
+#blog_two {
+	background-color: #F59564;
+}
+
+#blog_three {
+	background-color: #AAD677;
+}
+
+.blog_box h2 {
+	color: white;
+	text-align: center;
+	font-weight: normal;
+	font-size: 22px;
+	font-family: "Raleway", sans-serif;
+}
+
+.blog_box p {
+	color:white;
+	font-family: "Merriweather", serif;
+	margin-left: 10%;
+	margin-right: 5%;
+	font-size: 18px;
+	font-weight: lighter;
+
+
+}
+
+
+/* Main Stylez */
+
+main {
+	left: 2.7%;
+}
+
+main p {
+font-family: "Merriweather", serif;
+font-size: 18px;
+}
+
+h1 {
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+}
+
+/* Just Imag-y Stuff */
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+.main_photo {
+	border-radius: 100%;
+}
+
+/* Nav-y things */
+
+nav {
+	height: 100px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	position: relative;
+	bottom: 25px;
+}
+
+nav li {
+	display: inline;
+	font-family: "Raleway", sans-serif;
+	margin: 0 1.5%;
+	font-size: 24px;
+}
+
+nav img {
+	height: 85px;
+	width: 85px;
+	display: inline;
+}
+
+/* Icon Colors & Font-Family for Contact Page */
+.fa-linkedin-square {
+	color: #0077B5;
+}
+
+.fa-twitter {
+	color:4099FF;
+}
+
+.fa-medium {
+	color:05A056;
+}
+
+/* Contact Page H1 Space Below */
+.push-down {
+	margin-bottom: 50px;
+}
+
+.merriweather {
+	font-family: "Merriweather", serif;
+	font-size: 24px;
+}
+
+/************ 
+MOBILE LAYOUT 
+*************/
+
+[class^="col-"] {
+    width: 100%;
+}
+
+.main_photo {
+	height: 200px;
+	width: 200px;
+	position:relative;
+	left: 15%;
+}
+
+.blog_box h2 {
+	margin: 0 auto;
+}
+
+.blog_box p {
+	margin: 0 2% 0 5%;
+
+}
+
+
+/****************
+TABLET-ish LAYOUT
+*****************/
+
+@media screen and (min-width: 475px){
+
+
+/* Column Adjustments for Tablets*/
+
+.row {
+    clear: both;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+[class^="col-"] {
+    float: left;
+    margin: 0 3.84615384615% 0 0;
+    list-style: none;
+    position: relative;
+}
+
+[class^="col-"]:last-child {
+    margin: 0;
+}
+
+.col-1-m { width: 4.8076923077% }
+.col-2-m { width: 13.4615384615% }
+.col-3-m { width: 22.1153846154% }
+.col-4-m { width: 30.7692307692% }
+.col-5-m { width: 39.4230769231% }
+.col-6-m { width: 48.0769230769% }
+.col-7-m { width: 56.7307692308% }
+.col-8-m { width: 65.3846153846% }
+.col-9-m { width: 74.0384615385% }
+.col-10-m { width: 82.6923076923% }
+.col-11-m { width: 91.3461538462% }
+.col-12-m { width: 100%; margin: 0 }
+
+
+
+/*Blog Box Fix */
+
+.blog_box {
+	display: inline-block;
+	margin-right: 0%;
+	position: relative;
+	left:1%;
+	height: 200px;
+}
+
+h1 {
+	text-align: left;
+}
+
+.separation {
+	clear:both;
+}
+
+main {
+	left: 10%;
+}
+
+.main_photo {
+	height: auto;
+	width: auto;
+}
+
+}
+
+/************************************************************ 
+DESKTOP LAYOUT Incl. 12-column responsive grid and page flow 
+*************************************************************/
+
+@media screen and (min-width: 850px) {
+
+.row {
+    clear: both;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+[class^="col-"] {
+    float: left;
+    margin: 0 3.84615384615% 0 0;
+    list-style: none;
+    position: relative;
+}
+
+[class^="col-"]:last-child {
+    margin: 0;
+}
+
+.col-1 { width: 4.8076923077% }
+.col-2 { width: 13.4615384615% }
+.col-3 { width: 22.1153846154% }
+.col-4 { width: 30.7692307692% }
+.col-5 { width: 39.4230769231% }
+.col-6 { width: 48.0769230769% }
+.col-7 { width: 56.7307692308% }
+.col-8 { width: 65.3846153846% }
+.col-9 { width: 74.0384615385% }
+.col-10 { width: 82.6923076923% }
+.col-11 { width: 91.3461538462% }
+.col-12 { width: 100%; margin: 0 }
+
+.separation {
+	clear:both;
+}
+
+/* Header Moves Back to Left */
+
+ h1 {
+text-align: left;
+}
+
+/*Main Photo Fix */
+
+.main_photo {
+	height: auto;
+	width: auto;
+	margin-left: 8%;
+	margin-top: 5%;
+}
+
+/* Main Content Shift */
+main {
+	left: 4%;
+}
+
+/* Blog Section Styling */
+
+.separation {
+	position: relative;
+	left: 29%;
+}
+
+
+.blog_box {
+	display: inline-block;
+	width: 15%;
+	margin-right: 0px;
+	left:29%;
+	height: 200px;
+}
+
+.blog_box h2 {
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+}
+
