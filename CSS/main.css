@@ -107,6 +107,11 @@ nav a {
 	color: black;
 }
 
+p a {
+	text-decoration: none;
+	color: white;
+}
+
 /* Icon Colors & Font-Family for Contact Page */
 .fa-linkedin-square {
 	color: #0077B5;
