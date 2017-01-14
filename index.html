@@ -2,47 +2,56 @@
 <html>
 	<head>
     	<link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway" rel="stylesheet">
-    	<meta name="author" content="John Zoshak">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<link rel ="stylesheet" href="CSS/main.css">
+    	<link rel ="stylesheet" href="CSS/main.css"> <!-- add dots for github -->
 	</head>
 	<body>
-		<nav class ="col-10">
-			<a href="index.html"><img src="img/JZ_Logo.png"></a>
-			<ul>
-				<li><a href="about.html">About</a></li>
-				<li><a href="https://medium.com/@JohnZoshak">Blog</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-		<figure class ="col-3 col-4-m">
-			<img class = "main_photo" src="img/coffee_JZ.jpg" />
-		</figure>
-		<main class = "col-6 col-6-m">
-			<h1>Hi! </h1>
-			<p>
-				I’m attempting to become a unicorn. A product manager who can write code, design beautiful user experiences, and execute business strategies with aplomb.
-			</p>
-			<p>
-				Check out my blog for my latest work - and if you live in DC, or just dropping by - don’t be afraid to get in touch!
-			</p>
-		</main>
-		<div class ="separation col-12">
-			<p>
-				Follow me on my Journey
-			</p>
+		<div id="wrapper">
+			<div class="nav-wrapper col-10 col-10-m">
+				<nav>
+					<img src="img/jz_logo.png">
+					<ul>
+						<li>About</li>
+						<li>Blog</li>
+						<li>Contact</li>
+					</ul>
+				</nav>
+			</div>
+			<div class = "main-photo-div col-4 col-5-m">
+				<figure>
+						<img class = "main_photo" src="img/coffee_jz.jpg" />
+				</figure>
+			</div>
+			<div class="main-content-div col-6-m col-6">
+				<main>
+					<h1>Hi! </h1>
+					<p>
+						I’m attempting to become a unicorn. A product manager who can write code, design beautiful user experiences, and execute business strategies with aplomb.
+					</p>
+					<p>
+						Check out my blog for my latest work - and if you live in DC, or just dropping by - don’t be afraid to get in touch!
+					</p>
+				</main>
+				</div>
+				<div class = "blog_box_wrapper col-10-m col-6">
+					<div class = "separation">
+						<p>
+							Follow me on my Journey
+						</p>
+					</div>
+					<section class="blog_box" id = "blog_one">
+						<h2>Day 1</h2>
+						<p>A Small First Step on a Long Adventure</p>
+					</section>
+					<section class= "blog_box" id = "blog_two">
+						<h2>Day 6</h2>
+						<p>Rapid Creation,Some Setbacks and Finally, Triumph.</p>
+					</section>
+					<section class = "blog_box" id= "blog_three">
+						<h2>Day 33</h2>
+						<p>Resistance will Bury You.</p>
+					</section>
+				</div>
 		</div>
-		<section class = "col-3 blog_box col-4-m" id = "blog_one">
-			<h2>Day One</h2>
-			<p>Taking Stock and Planning for the Journey Ahead</p>
-		</section>
-		<section class = "col-3 blog_box col-4-m" id = "blog_two">
-			<h2>Day Two</h2>
-			<p>Early Bumps Make for Some Early Lessons Learned</p>
-		</section>
-		<section class = "col-3 blog_box col-4-m" id= "blog_three">
-			<h2>Day Three</h2>
-			<p>A little bit of JQuery fun to spice things up</p>
-		</section>
 	</body>
 </html>
