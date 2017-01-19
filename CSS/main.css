@@ -167,6 +167,10 @@ MOBILE LAYOUT
 	left: 12%;
 }
 
+.blog_box a {
+	text-decoration: none;
+}
+
 /****************
 TABLET-ish LAYOUT
 *****************/
