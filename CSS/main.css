@@ -22,12 +22,24 @@ Base Styles
 	background-color: #43CFBB;
 }
 
+#blog_one:hover {
+	background-color:#47DCC7
+}
+
 #blog_two {
 	background-color: #F59564;
 }
 
+#blog_two:hover {
+	background-color:#FF7D64
+}
+
 #blog_three {
 	background-color: #AAD677;
+}
+
+#blog_three:hover {
+background-color: #B4E37E;
 }
 
 .blog_box h2 {
